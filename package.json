@@ -1,0 +1,24 @@
+{
+  "name": "trend-news-app-website",
+  "version": "1.0.0",
+  "description": "Official website for Trend News App - Cross-platform news aggregation from Telegram and Twitter",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "news",
+    "telegram",
+    "twitter",
+    "trending",
+    "aggregator"
+  ],
+  "author": "Trend News App",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohamadskanina/trend_news.git"
+  }
+}
+

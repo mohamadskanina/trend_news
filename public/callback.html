@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Authorization callback page for Trend News App">
+    <meta property="og:title" content="Authorization - Trend News App">
+    <meta property="og:description" content="Complete your authorization to access Trend News App">
+    <meta property="og:image" content="https://trendnews.example.com/assets/preview.png">
+    
+    <title>Authorization Successful - Trend News App</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/styles/global.css">
+    <link rel="stylesheet" href="../src/styles/theme.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="../src/assets/logo.svg" alt="Trend News App Logo" class="logo-img">
+                <span class="logo-text">Trend News</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="privacy.html" class="nav-link">Privacy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="callback.html" class="nav-link active">Callback</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Callback Content -->
+    <main class="page-content">
+        <div class="container">
+            <div class="callback-container">
+                <div class="callback-card glass-card">
+                    <div class="success-icon">
+                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h1 class="callback-title">Authorization Successful</h1>
+                    <p class="callback-message">
+                        You may now return to the app.
+                    </p>
+                    <div class="callback-actions">
+                        <a href="index.html" class="btn btn-primary">Return to Home</a>
+                    </div>
+                    <div class="callback-info">
+                        <p class="info-text">
+                            <small>
+                                This page handles OAuth callbacks from Telegram and Twitter APIs. 
+                                The authorization token has been securely processed.
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="../src/assets/logo.svg" alt="Trend News App Logo" class="logo-img">
+                        <span class="logo-text">Trend News</span>
+                    </div>
+                    <p class="footer-description">
+                        Your trusted source for trending news from Telegram, Twitter, and beyond.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="callback.html">Authorization</a></li>
+                        <li><a href="https://telegram.org/tos" target="_blank" rel="noopener">Telegram Terms</a></li>
+                        <li><a href="https://developer.twitter.com/en/developer-terms" target="_blank" rel="noopener">Twitter Developer Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trend News App. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../src/js/callback.js"></script>
+    <script src="../src/js/main.js"></script>
+</body>
+</html>
+

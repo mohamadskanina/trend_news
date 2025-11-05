@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trend News App — your one-stop source for trending topics from Telegram and X.">
+    <meta name="keywords" content="news, trending, telegram, twitter, news aggregator, social media">
+    <meta name="author" content="Trend News App">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://trendnews.example.com/">
+    <meta property="og:title" content="Trend News App">
+    <meta property="og:description" content="Filter and follow the hottest news directly from Telegram and Twitter APIs.">
+    <meta property="og:image" content="https://trendnews.example.com/assets/preview.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://trendnews.example.com/">
+    <meta property="twitter:title" content="Trend News App">
+    <meta property="twitter:description" content="Filter and follow the hottest news directly from Telegram and Twitter APIs.">
+    <meta property="twitter:image" content="https://trendnews.example.com/assets/preview.png">
+    
+    <title>Trend News App - Your All-in-One News Aggregator</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/styles/global.css">
+    <link rel="stylesheet" href="../src/styles/theme.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="../src/assets/logo.svg" alt="Trend News App Logo" class="logo-img">
+                <span class="logo-text">Trend News</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="privacy.html" class="nav-link">Privacy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="callback.html" class="nav-link">Callback</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Trend News App</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Your all-in-one source for trending news and Telegram updates.
+                </p>
+                <p class="hero-description">
+                    Stay ahead of the curve with real-time news aggregation from Telegram, Twitter (X), 
+                    and other sources. Filter, customize, and discover the stories that matter to you.
+                </p>
+                <div class="hero-actions">
+                    <a href="#download" class="btn btn-primary" id="downloadBtn">
+                        <span>Download App</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="mockup-container">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="mockup-content">
+                                <div class="mockup-header"></div>
+                                <div class="mockup-item"></div>
+                                <div class="mockup-item"></div>
+                                <div class="mockup-item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Trend News?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Cross-Platform</h3>
+                    <p class="feature-description">Available on iOS, Android, and Web. Your news, everywhere.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">Smart Filtering</h3>
+                    <p class="feature-description">Customize your feed with advanced filters and hashtag tracking.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Real-Time Updates</h3>
+                    <p class="feature-description">Get instant notifications when trending topics match your interests.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">Privacy First</h3>
+                    <p class="feature-description">Your data stays on your device. We never share or sell your information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="../src/assets/logo.svg" alt="Trend News App Logo" class="logo-img">
+                        <span class="logo-text">Trend News</span>
+                    </div>
+                    <p class="footer-description">
+                        Your trusted source for trending news from Telegram, Twitter, and beyond.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="callback.html">Authorization</a></li>
+                        <li><a href="https://telegram.org/tos" target="_blank" rel="noopener">Telegram Terms</a></li>
+                        <li><a href="https://developer.twitter.com/en/developer-terms" target="_blank" rel="noopener">Twitter Developer Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trend News App. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../src/js/main.js"></script>
+</body>
+</html>
+
